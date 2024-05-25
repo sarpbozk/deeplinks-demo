@@ -45,6 +45,7 @@
 		CBCCFDEA2C025C4800764F99 /* deeplinks demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "deeplinks demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCCFDEE2C025C4800764F99 /* deeplinks_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deeplinks_demoUITests.swift; sourceTree = "<group>"; };
 		CBCCFDF02C025C4800764F99 /* deeplinks_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deeplinks_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBCCFDFD2C02640200764F99 /* deeplinks-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "deeplinks-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		CBCCFDD12C025C4600764F99 /* deeplinks demo */ = {
 			isa = PBXGroup;
 			children = (
+				CBCCFDFD2C02640200764F99 /* deeplinks-demo-Info.plist */,
 				CBCCFDD22C025C4600764F99 /* deeplinks_demoApp.swift */,
 				CBCCFDD42C025C4600764F99 /* ContentView.swift */,
 				CBCCFDD62C025C4700764F99 /* Assets.xcassets */,
@@ -422,6 +424,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"deeplinks demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "deeplinks-demo-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -458,6 +461,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"deeplinks demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "deeplinks-demo-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
